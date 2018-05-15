@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.statusBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+    "editor.fontSize": 13,
+    "phpcs.composerJsonPath": "composer.json",
+    "phpcs.executablePath": "/Users/gabriele/.composer/vendor/bin/phpcs",
+    "phpcs.standard": "PSR2",
+    "php.suggest.basic": false,
+    "window.zoomLevel": 0,
+    "editor.tabCompletion": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "php-cs-fixer.executablePath": "/Users/gabriele/.composer/vendor/bin/php-cs-fixer"
+}

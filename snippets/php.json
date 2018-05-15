@@ -1,0 +1,54 @@
+{
+	"Public Method": {
+		"prefix": "met",
+		"body": [
+			"public function $1($2)",
+			"{",
+			"\t$3",
+			"}"
+		],
+		"description": "function"
+	},
+	"Dump Content": {
+		"prefix": "dpc",
+		"body": [
+			"dump($$res->getContent());"
+		],
+		"description": "dump response content"
+	},
+	"Dump Die Content": {
+		"prefix": "ddc",
+		"body": [
+			"dd($$res->getContent());"
+		],
+		"description": "dump and die response content"
+	},
+	"dump": {
+		"prefix": "dp",
+		"body": [
+			"dump($1);"
+		],
+		"description": "dump variable"
+	},
+	"die dump": {
+		"prefix": "dd",
+		"body": [
+			"dd($1);"
+		],
+		"description": "die dump"
+	},
+	"get attributes": {
+		"prefix": "ga",
+		"body": [
+			"getAttributes()"
+		],
+		"description": "get attributes"
+	},
+	"Log info": {
+		"prefix": "info",
+		"body": [
+			"\\Log::info($1);"
+		],
+		"description": "Logi info""
+	}
+}
